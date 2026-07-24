@@ -1,0 +1,7 @@
+model,C3x_R2_normal,C3x_R2_stress
+claude,0.0364,0.0897
+gemini,0.0304,0.1831
+gemma-3-27b,0.0269,0.0698
+gpt,0.0241,0.0837
+mistral-24b,0.022,0.0661
+qwen3-32b,0.0297,0.0713

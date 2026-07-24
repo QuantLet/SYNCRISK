@@ -1,0 +1,38 @@
+{
+  "description": "Raw LLM input/output logs for the SYNCRISK main run. The full raw_io_*.jsonl files (87,845 records) are NOT shipped because the request `messages` embed licensed EODHD news headlines. This manifest gives per-file record counts and a single response-only sample (prompt withheld). The parsed model outputs themselves ship in full in scores_P0.parquet / scores_P3.parquet.",
+  "total_records": 87845,
+  "files": [
+    {
+      "file": "raw_io_commercial.jsonl",
+      "n_records": 43925
+    },
+    {
+      "file": "raw_io_gemma-3-27b.jsonl",
+      "n_records": 14640
+    },
+    {
+      "file": "raw_io_mistral-24b.jsonl",
+      "n_records": 14640
+    },
+    {
+      "file": "raw_io_qwen3-32b.jsonl",
+      "n_records": 14640
+    }
+  ],
+  "sample_record_response_only": {
+    "arm": "P0",
+    "date": "2021-02-05",
+    "asset_ticker": "AAPL.US",
+    "model": "claude",
+    "call_kind": "primary",
+    "response": "```json\n{\n  \"relative_risk_score\": 28,\n  \"tail_risk_rank\": 2,\n  \"de_risking_signal\": \"hold\",\n  \"confidence\": 0.82,\n  \"brief_reason\": \"Low volatility, modest drawdown, positive momentum, elevated beta offset by benign risk metrics and constructive sentiment.\"\n}\n```",
+    "usage": {
+      "in": 1204,
+      "out": 90
+    },
+    "template_idx": 0,
+    "price_window": 60,
+    "lag_weeks": 0,
+    "n_headlines_kept": 10
+  }
+}

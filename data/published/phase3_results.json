@@ -1,0 +1,404 @@
+{
+  "train_hi": "2021-12-31",
+  "n_assets": 30,
+  "arms": {
+    "P0": {
+      "raw_afsi": {
+        "all": {
+          "normal": 0.8505,
+          "stress": 0.8961
+        },
+        "within_comm": {
+          "normal": 0.8531,
+          "stress": 0.8988
+        },
+        "within_open": {
+          "normal": 0.8493,
+          "stress": 0.8947
+        },
+        "cross_family": {
+          "normal": 0.8501,
+          "stress": 0.8957
+        }
+      },
+      "excess": {
+        "C1": {
+          "all": {
+            "normal": 0.6741,
+            "stress": 0.7958
+          },
+          "within_comm": {
+            "normal": 0.6447,
+            "stress": 0.7802
+          },
+          "within_open": {
+            "normal": 0.696,
+            "stress": 0.8075
+          },
+          "cross_family": {
+            "normal": 0.6767,
+            "stress": 0.797
+          }
+        },
+        "C2": {
+          "all": {
+            "normal": 0.5896,
+            "stress": 0.7744
+          },
+          "within_comm": {
+            "normal": 0.58,
+            "stress": 0.7615
+          },
+          "within_open": {
+            "normal": 0.5984,
+            "stress": 0.7812
+          },
+          "cross_family": {
+            "normal": 0.5898,
+            "stress": 0.7765
+          }
+        },
+        "C3": {
+          "all": {
+            "normal": 0.5118,
+            "stress": 0.6954
+          },
+          "within_comm": {
+            "normal": 0.4931,
+            "stress": 0.6759
+          },
+          "within_open": {
+            "normal": 0.5249,
+            "stress": 0.7149
+          },
+          "cross_family": {
+            "normal": 0.5138,
+            "stress": 0.6954
+          }
+        }
+      },
+      "tail": {
+        "all": {
+          "normal": 0.0919,
+          "stress": 0.0493
+        },
+        "within_comm": {
+          "normal": 0.086,
+          "stress": 0.04
+        },
+        "within_open": {
+          "normal": 0.0819,
+          "stress": 0.036
+        },
+        "cross_family": {
+          "normal": 0.0919,
+          "stress": 0.0493
+        }
+      },
+      "perm_reject_normal": 1.0,
+      "perm_reject_stress": 1.0
+    },
+    "P3": {
+      "raw_afsi": {
+        "all": {
+          "normal": 0.7831,
+          "stress": 0.8414
+        },
+        "within_comm": {
+          "normal": 0.7869,
+          "stress": 0.8381
+        },
+        "within_open": {
+          "normal": 0.7814,
+          "stress": 0.847
+        },
+        "cross_family": {
+          "normal": 0.7824,
+          "stress": 0.8406
+        }
+      },
+      "excess": {
+        "C1": {
+          "all": {
+            "normal": 0.5766,
+            "stress": 0.7417
+          },
+          "within_comm": {
+            "normal": 0.5627,
+            "stress": 0.7276
+          },
+          "within_open": {
+            "normal": 0.591,
+            "stress": 0.7545
+          },
+          "cross_family": {
+            "normal": 0.5764,
+            "stress": 0.7421
+          }
+        },
+        "C2": {
+          "all": {
+            "normal": 0.4553,
+            "stress": 0.7066
+          },
+          "within_comm": {
+            "normal": 0.4324,
+            "stress": 0.6815
+          },
+          "within_open": {
+            "normal": 0.4788,
+            "stress": 0.7292
+          },
+          "cross_family": {
+            "normal": 0.455,
+            "stress": 0.7075
+          }
+        },
+        "C3": {
+          "all": {
+            "normal": 0.3872,
+            "stress": 0.6196
+          },
+          "within_comm": {
+            "normal": 0.3537,
+            "stress": 0.5913
+          },
+          "within_open": {
+            "normal": 0.4196,
+            "stress": 0.6442
+          },
+          "cross_family": {
+            "normal": 0.3875,
+            "stress": 0.6209
+          }
+        }
+      },
+      "tail": {
+        "all": {
+          "normal": 0.0881,
+          "stress": 0.0493
+        },
+        "within_comm": {
+          "normal": 0.0831,
+          "stress": 0.0493
+        },
+        "within_open": {
+          "normal": 0.0779,
+          "stress": 0.0307
+        },
+        "cross_family": {
+          "normal": 0.0881,
+          "stress": 0.0493
+        }
+      },
+      "perm_reject_normal": 1.0,
+      "perm_reject_stress": 1.0
+    }
+  },
+  "eq7": [
+    {
+      "arm": "P0",
+      "cleaning": "C2",
+      "horizon_w": 4,
+      "n": 126,
+      "beta_excess": 0.2214,
+      "nw_se": 0.1214,
+      "t": 1.82,
+      "p": 0.0682,
+      "r2": 0.42,
+      "controls": [
+        "vix",
+        "hy_spread",
+        "term_slope",
+        "market_return"
+      ]
+    },
+    {
+      "arm": "P0",
+      "cleaning": "C2",
+      "horizon_w": 8,
+      "n": 126,
+      "beta_excess": 0.2546,
+      "nw_se": 0.1445,
+      "t": 1.76,
+      "p": 0.078,
+      "r2": 0.361,
+      "controls": [
+        "vix",
+        "hy_spread",
+        "term_slope",
+        "market_return"
+      ]
+    },
+    {
+      "arm": "P0",
+      "cleaning": "C2",
+      "horizon_w": 13,
+      "n": 126,
+      "beta_excess": 0.2421,
+      "nw_se": 0.1475,
+      "t": 1.64,
+      "p": 0.1008,
+      "r2": 0.318,
+      "controls": [
+        "vix",
+        "hy_spread",
+        "term_slope",
+        "market_return"
+      ]
+    },
+    {
+      "arm": "P0",
+      "cleaning": "C3",
+      "horizon_w": 4,
+      "n": 126,
+      "beta_excess": -0.017,
+      "nw_se": 0.0616,
+      "t": -0.28,
+      "p": 0.7827,
+      "r2": 0.337,
+      "controls": [
+        "vix",
+        "hy_spread",
+        "term_slope",
+        "market_return"
+      ]
+    },
+    {
+      "arm": "P0",
+      "cleaning": "C3",
+      "horizon_w": 8,
+      "n": 126,
+      "beta_excess": 0.0244,
+      "nw_se": 0.0676,
+      "t": 0.36,
+      "p": 0.7185,
+      "r2": 0.245,
+      "controls": [
+        "vix",
+        "hy_spread",
+        "term_slope",
+        "market_return"
+      ]
+    },
+    {
+      "arm": "P0",
+      "cleaning": "C3",
+      "horizon_w": 13,
+      "n": 126,
+      "beta_excess": 0.0387,
+      "nw_se": 0.0619,
+      "t": 0.63,
+      "p": 0.5318,
+      "r2": 0.194,
+      "controls": [
+        "vix",
+        "hy_spread",
+        "term_slope",
+        "market_return"
+      ]
+    },
+    {
+      "arm": "P3",
+      "cleaning": "C2",
+      "horizon_w": 4,
+      "n": 126,
+      "beta_excess": 0.2155,
+      "nw_se": 0.1171,
+      "t": 1.84,
+      "p": 0.0658,
+      "r2": 0.438,
+      "controls": [
+        "vix",
+        "hy_spread",
+        "term_slope",
+        "market_return"
+      ]
+    },
+    {
+      "arm": "P3",
+      "cleaning": "C2",
+      "horizon_w": 8,
+      "n": 126,
+      "beta_excess": 0.2299,
+      "nw_se": 0.1377,
+      "t": 1.67,
+      "p": 0.095,
+      "r2": 0.366,
+      "controls": [
+        "vix",
+        "hy_spread",
+        "term_slope",
+        "market_return"
+      ]
+    },
+    {
+      "arm": "P3",
+      "cleaning": "C2",
+      "horizon_w": 13,
+      "n": 126,
+      "beta_excess": 0.2001,
+      "nw_se": 0.1403,
+      "t": 1.43,
+      "p": 0.154,
+      "r2": 0.302,
+      "controls": [
+        "vix",
+        "hy_spread",
+        "term_slope",
+        "market_return"
+      ]
+    },
+    {
+      "arm": "P3",
+      "cleaning": "C3",
+      "horizon_w": 4,
+      "n": 126,
+      "beta_excess": 0.0104,
+      "nw_se": 0.0867,
+      "t": 0.12,
+      "p": 0.9042,
+      "r2": 0.337,
+      "controls": [
+        "vix",
+        "hy_spread",
+        "term_slope",
+        "market_return"
+      ]
+    },
+    {
+      "arm": "P3",
+      "cleaning": "C3",
+      "horizon_w": 8,
+      "n": 126,
+      "beta_excess": -0.0116,
+      "nw_se": 0.0842,
+      "t": -0.14,
+      "p": 0.8908,
+      "r2": 0.245,
+      "controls": [
+        "vix",
+        "hy_spread",
+        "term_slope",
+        "market_return"
+      ]
+    },
+    {
+      "arm": "P3",
+      "cleaning": "C3",
+      "horizon_w": 13,
+      "n": 126,
+      "beta_excess": -0.0115,
+      "nw_se": 0.0781,
+      "t": -0.15,
+      "p": 0.8826,
+      "r2": 0.192,
+      "controls": [
+        "vix",
+        "hy_spread",
+        "term_slope",
+        "market_return"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "margin": 0.05,
+  "n_normal_weeks": 150,
+  "alpha": 0.05,
+  "contrasts": {
+    "cross_minus_comm": {
+      "point": -0.0015,
+      "ci95": [
+        -0.0186,
+        0.0161
+      ],
+      "ci90": [
+        -0.016,
+        0.0134
+      ],
+      "tost_p": 0.0,
+      "equivalent_at_margin": true
+    },
+    "open_minus_comm": {
+      "point": -0.0141,
+      "ci95": [
+        -0.0405,
+        0.0126
+      ],
+      "ci90": [
+        -0.0369,
+        0.0082
+      ],
+      "tost_p": 0.004,
+      "equivalent_at_margin": true
+    },
+    "cross_minus_open": {
+      "point": 0.0126,
+      "ci95": [
+        -0.0042,
+        0.0298
+      ],
+      "ci90": [
+        -0.0015,
+        0.0268
+      ],
+      "tost_p": 0.0,
+      "equivalent_at_margin": true
+    }
+  },
+  "all_equivalent": true
+}

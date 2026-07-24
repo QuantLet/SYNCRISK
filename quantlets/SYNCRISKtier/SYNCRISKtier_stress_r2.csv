@@ -1,0 +1,4 @@
+tier,model_set,r2_normal,r2_stress
+efficiency,P3,0.0267,0.1502
+frontier,P3,0.0687,0.132
+open,P3,0.0205,0.1007

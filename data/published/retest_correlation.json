@@ -1,0 +1,23 @@
+{
+  "frac": 0.02,
+  "seed": 20260612,
+  "n_resampled": 878,
+  "by_model": {
+    "claude": {
+      "n_cells": 300,
+      "pearson_r": 0.9974,
+      "exact_match_rate": 0.9733
+    },
+    "gemini": {
+      "n_cells": 303,
+      "pearson_r": 0.9971,
+      "exact_match_rate": 0.9736
+    },
+    "gpt": {
+      "n_cells": 275,
+      "pearson_r": 0.9789,
+      "exact_match_rate": 0.9055
+    }
+  },
+  "note": "open-weight deterministic (vLLM greedy temp=0) -> r=1.0 by construction"
+}

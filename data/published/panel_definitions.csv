@@ -1,0 +1,4 @@
+def,note,n_assets,n_weeks,usable_asset_weeks,commercial_cost_usd,open_wallclock_h
+D1,all present assets; weeks with N>=40,64,105,5418,22.21,6.5
+D2,assets with >=60% training-window coverage; full period,8,375,2614,10.72,3.1
+D3,D2 assets AND D1 weeks,8,105,840,3.44,1.0

@@ -1,0 +1,9 @@
+arm,model_set,tier,raw,C2x,C3x
+P0,P0=9 models,all-9,0.7048,0.5733,0.509
+P0,P0=9 models,efficiency,0.6948,0.5593,0.4966
+P0,P0=9 models,frontier,0.8155,0.6292,0.5522
+P0,P0=9 models,open,0.6731,0.5679,0.5158
+P3,P3=8 models (frontier=claude+gpt),all-9,0.5616,0.4446,0.3889
+P3,P3=8 models (frontier=claude+gpt),efficiency,0.54,0.4291,0.3646
+P3,P3=8 models (frontier=claude+gpt),frontier,0.6532,0.4838,0.4316
+P3,P3=8 models (frontier=claude+gpt),open,0.508,0.3981,0.3505

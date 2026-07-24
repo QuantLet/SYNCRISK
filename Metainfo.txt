@@ -1,0 +1,13 @@
+Name of QuantLet: SYNCRISK
+
+Published in: 'SYNCRISK: A Label-Free Audit of Effective Diversity in AI Risk-Scoring Panels'
+
+Description: 'Replication collection for the SYNCRISK framework, which measures residual synchronization (Excess-AFSI) among LLM-based financial-risk assessments after shared reaction to common observable information is removed out of sample. The eleven Quantlets each reproduce one reported table or figure from the released B-stabilized results files: the decay chain, the cleaning-ladder and orthogonality summary, the family-block decomposition, the stress diagnostic, the high-coverage core, the frontier-tier extension, the co-movement projection, the effective-diversity curve K_eff(J) from the matched-overlap sweep, the Excess-AFSI time series, the synthetic end-to-end pipeline (no licensed data), and the realized-panel coverage. Reproduction requires no model calls and no licensed data.'
+
+Keywords: 'llm, large language models, model validation, ensemble diversity, algorithmic monoculture, synchronization, financial risk, afsi, replication, ai governance'
+
+Author: Daniel Traian Pele
+
+Submitted: '2026-06-20'
+
+Subfunctions: 'SYNCRISKdecay, SYNCRISKladder, SYNCRISKfamily, SYNCRISKstress, SYNCRISKcore, SYNCRISKtier, SYNCRISKeq7, SYNCRISKoverlap, SYNCRISKtimeseries, SYNCRISKsynthetic, SYNCRISKpanel'

@@ -1,0 +1,15 @@
+Name of QuantLet: SYNCRISKpanel
+
+Published in: 'SYNCRISK: A Label-Free Audit of Effective Diversity in AI Risk-Scoring Panels'
+
+Description: 'Constructs and reports coverage for the realized SYNCRISK evaluation panel (30 US equities x 244 weeks, 2021-02 to 2026-06). Reproduces the panel-coverage figures and per-asset coverage table (paper data section): weekly usable cross-section N with the N>=30 inclusion rule, per-asset training/overall coverage and the Amendment-4 keep flags, and realized-panel metadata. Uses only publishable derived data; no raw EODHD prices or news.'
+
+Keywords: 'panel, coverage, data, financial-markets, equities, sampling, reproducibility, llm'
+
+Author: Daniel Traian Pele
+
+Submitted: '2026-06-12'
+
+Datafile: 'panel_features.parquet, training_coverage_per_asset_v2.csv, realized_panel.json'
+
+Output: 'SYNCRISKpanel.png, SYNCRISKpanel.csv, SYNCRISKpanel.ipynb'

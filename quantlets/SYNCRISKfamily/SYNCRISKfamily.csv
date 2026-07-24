@@ -1,0 +1,5 @@
+block,P0_normal,P0_stress,P3_normal,P3_stress
+all-6,0.5073,0.4673,0.3609,0.2889
+within-commercial,0.4963,0.4897,0.3646,0.2934
+within-open,0.5156,0.4513,0.3505,0.2469
+cross-family,0.5082,0.4652,0.3631,0.3014

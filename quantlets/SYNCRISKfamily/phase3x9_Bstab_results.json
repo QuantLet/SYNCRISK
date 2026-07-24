@@ -1,0 +1,191 @@
+{
+  "burn_in": 36,
+  "arms": {
+    "P0": {
+      "C2x": {
+        "all9": {
+          "normal": 0.5733,
+          "stress": 0.5077
+        },
+        "within_frontier": {
+          "normal": 0.6292,
+          "stress": 0.6164
+        },
+        "within_efficiency": {
+          "normal": 0.5593,
+          "stress": 0.5265
+        },
+        "within_open": {
+          "normal": 0.5679,
+          "stress": 0.5065
+        },
+        "frontier2": {
+          "normal": 0.6818,
+          "stress": 0.6501
+        },
+        "lineage_same_provider_cross_tier": {
+          "normal": 0.6355,
+          "stress": 0.5842
+        }
+      },
+      "C3x": {
+        "all9": {
+          "normal": 0.509,
+          "stress": 0.4653
+        },
+        "within_frontier": {
+          "normal": 0.5522,
+          "stress": 0.5199
+        },
+        "within_efficiency": {
+          "normal": 0.4966,
+          "stress": 0.4894
+        },
+        "within_open": {
+          "normal": 0.5158,
+          "stress": 0.4526
+        },
+        "frontier2": {
+          "normal": 0.6144,
+          "stress": 0.5586
+        },
+        "lineage_same_provider_cross_tier": {
+          "normal": 0.5672,
+          "stress": 0.5523
+        }
+      },
+      "RAW": {
+        "all9": {
+          "normal": 0.7048,
+          "stress": 0.7082
+        },
+        "within_frontier": {
+          "normal": 0.8155,
+          "stress": 0.7766
+        },
+        "within_efficiency": {
+          "normal": 0.6948,
+          "stress": 0.713
+        },
+        "within_open": {
+          "normal": 0.6731,
+          "stress": 0.7029
+        },
+        "frontier2": {
+          "normal": 0.8461,
+          "stress": 0.821
+        },
+        "lineage_same_provider_cross_tier": {
+          "normal": 0.7454,
+          "stress": 0.7494
+        }
+      }
+    },
+    "P3": {
+      "C2x": {
+        "all9": {
+          "normal": 0.4446,
+          "stress": 0.3578
+        },
+        "within_frontier": {
+          "normal": 0.4838,
+          "stress": 0.3539
+        },
+        "within_efficiency": {
+          "normal": 0.4291,
+          "stress": 0.3572
+        },
+        "within_open": {
+          "normal": 0.3981,
+          "stress": 0.3225
+        },
+        "frontier2": {
+          "normal": 0.4838,
+          "stress": 0.3539
+        },
+        "lineage_same_provider_cross_tier": {
+          "normal": 0.5726,
+          "stress": 0.5327
+        }
+      },
+      "C3x": {
+        "all9": {
+          "normal": 0.3889,
+          "stress": 0.3205
+        },
+        "within_frontier": {
+          "normal": 0.4316,
+          "stress": 0.332
+        },
+        "within_efficiency": {
+          "normal": 0.3646,
+          "stress": 0.2934
+        },
+        "within_open": {
+          "normal": 0.3505,
+          "stress": 0.2469
+        },
+        "frontier2": {
+          "normal": 0.4316,
+          "stress": 0.332
+        },
+        "lineage_same_provider_cross_tier": {
+          "normal": 0.5161,
+          "stress": 0.494
+        }
+      },
+      "RAW": {
+        "all9": {
+          "normal": 0.5616,
+          "stress": 0.5815
+        },
+        "within_frontier": {
+          "normal": 0.6532,
+          "stress": 0.5591
+        },
+        "within_efficiency": {
+          "normal": 0.54,
+          "stress": 0.5888
+        },
+        "within_open": {
+          "normal": 0.508,
+          "stress": 0.5549
+        },
+        "frontier2": {
+          "normal": 0.6532,
+          "stress": 0.5591
+        },
+        "lineage_same_provider_cross_tier": {
+          "normal": 0.6528,
+          "stress": 0.6839
+        }
+      }
+    }
+  },
+  "frontier_pairwise": {
+    "P0": {
+      "claude-frontier|gpt-frontier": 0.6144,
+      "claude-frontier|gemini-frontier": 0.5987,
+      "gpt-frontier|gemini-frontier": 0.4434
+    },
+    "P3": {
+      "claude-frontier|gpt-frontier": 0.4316,
+      "claude-frontier|gemini-frontier": NaN,
+      "gpt-frontier|gemini-frontier": NaN
+    }
+  },
+  "stress_r2_by_tier": {
+    "efficiency": {
+      "normal": 0.0267,
+      "stress": 0.1502
+    },
+    "frontier": {
+      "normal": 0.0687,
+      "stress": 0.132
+    },
+    "open": {
+      "normal": 0.0205,
+      "stress": 0.1007
+    }
+  }
+}

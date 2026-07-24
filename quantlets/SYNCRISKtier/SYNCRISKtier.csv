@@ -1,0 +1,10 @@
+block,model_set,excess_afsi
+within-efficiency,efficiency-3,0.4966
+within-frontier,frontier-3,0.5522
+within-open,open-3,0.5158
+frontier-2 (claude+gpt),frontier-2,0.6144
+lineage (same-provider cross-tier),lineage,0.5672
+all-nine,all-9,0.509
+pair claude-frontier|gpt-frontier,frontier pair,0.6144
+pair claude-frontier|gemini-frontier,frontier pair,0.5987
+pair gpt-frontier|gemini-frontier,frontier pair,0.4434

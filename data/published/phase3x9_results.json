@@ -1,0 +1,410 @@
+{
+  "arms": {
+    "P0": {
+      "C1x": {
+        "all9": {
+          "normal": 0.6509,
+          "stress": 0.8079
+        },
+        "within_frontier": {
+          "normal": 0.6549,
+          "stress": 0.8259
+        },
+        "within_efficiency": {
+          "normal": 0.6473,
+          "stress": 0.8072
+        },
+        "within_open": {
+          "normal": 0.7028,
+          "stress": 0.8213
+        },
+        "frontier2": {
+          "normal": 0.6901,
+          "stress": 0.8612
+        },
+        "lineage_same_provider_cross_tier": {
+          "normal": 0.6983,
+          "stress": 0.8464
+        }
+      },
+      "C2x": {
+        "all9": {
+          "normal": 0.5751,
+          "stress": 0.7524
+        },
+        "within_frontier": {
+          "normal": 0.5651,
+          "stress": 0.7704
+        },
+        "within_efficiency": {
+          "normal": 0.5935,
+          "stress": 0.7592
+        },
+        "within_open": {
+          "normal": 0.6052,
+          "stress": 0.77
+        },
+        "frontier2": {
+          "normal": 0.5923,
+          "stress": 0.815
+        },
+        "lineage_same_provider_cross_tier": {
+          "normal": 0.6342,
+          "stress": 0.7987
+        }
+      },
+      "C3x": {
+        "all9": {
+          "normal": 0.5026,
+          "stress": 0.6351
+        },
+        "within_frontier": {
+          "normal": 0.4836,
+          "stress": 0.6528
+        },
+        "within_efficiency": {
+          "normal": 0.5065,
+          "stress": 0.6281
+        },
+        "within_open": {
+          "normal": 0.558,
+          "stress": 0.6611
+        },
+        "frontier2": {
+          "normal": 0.5628,
+          "stress": 0.7493
+        },
+        "lineage_same_provider_cross_tier": {
+          "normal": 0.5545,
+          "stress": 0.6848
+        }
+      },
+      "RAW": {
+        "all9": {
+          "normal": 0.8495,
+          "stress": 0.889
+        },
+        "within_frontier": {
+          "normal": 0.8809,
+          "stress": 0.8958
+        },
+        "within_efficiency": {
+          "normal": 0.853,
+          "stress": 0.8988
+        },
+        "within_open": {
+          "normal": 0.8495,
+          "stress": 0.895
+        },
+        "frontier2": {
+          "normal": 0.9143,
+          "stress": 0.9325
+        },
+        "lineage_same_provider_cross_tier": {
+          "normal": 0.8808,
+          "stress": 0.9139
+        }
+      }
+    },
+    "P3": {
+      "C1x": {
+        "all9": {
+          "normal": 0.5807,
+          "stress": 0.7611
+        },
+        "within_frontier": {
+          "normal": 0.5692,
+          "stress": 0.7601
+        },
+        "within_efficiency": {
+          "normal": 0.5546,
+          "stress": 0.7406
+        },
+        "within_open": {
+          "normal": 0.5827,
+          "stress": 0.762
+        },
+        "frontier2": {
+          "normal": 0.5692,
+          "stress": 0.7601
+        },
+        "lineage_same_provider_cross_tier": {
+          "normal": 0.6771,
+          "stress": 0.8222
+        }
+      },
+      "C2x": {
+        "all9": {
+          "normal": 0.4609,
+          "stress": 0.6847
+        },
+        "within_frontier": {
+          "normal": 0.4237,
+          "stress": 0.6625
+        },
+        "within_efficiency": {
+          "normal": 0.4396,
+          "stress": 0.6543
+        },
+        "within_open": {
+          "normal": 0.4576,
+          "stress": 0.698
+        },
+        "frontier2": {
+          "normal": 0.4237,
+          "stress": 0.6625
+        },
+        "lineage_same_provider_cross_tier": {
+          "normal": 0.5744,
+          "stress": 0.7662
+        }
+      },
+      "C3x": {
+        "all9": {
+          "normal": 0.39,
+          "stress": 0.5466
+        },
+        "within_frontier": {
+          "normal": 0.3711,
+          "stress": 0.5309
+        },
+        "within_efficiency": {
+          "normal": 0.3401,
+          "stress": 0.502
+        },
+        "within_open": {
+          "normal": 0.4025,
+          "stress": 0.5696
+        },
+        "frontier2": {
+          "normal": 0.3711,
+          "stress": 0.5309
+        },
+        "lineage_same_provider_cross_tier": {
+          "normal": 0.499,
+          "stress": 0.655
+        }
+      },
+      "RAW": {
+        "all9": {
+          "normal": 0.8026,
+          "stress": 0.8493
+        },
+        "within_frontier": {
+          "normal": 0.8541,
+          "stress": 0.8541
+        },
+        "within_efficiency": {
+          "normal": 0.7869,
+          "stress": 0.8381
+        },
+        "within_open": {
+          "normal": 0.7814,
+          "stress": 0.847
+        },
+        "frontier2": {
+          "normal": 0.8541,
+          "stress": 0.8541
+        },
+        "lineage_same_provider_cross_tier": {
+          "normal": 0.8615,
+          "stress": 0.9015
+        }
+      }
+    }
+  },
+  "frontier_pairwise": {
+    "P0": {
+      "claude-frontier|gpt-frontier": 0.5628,
+      "claude-frontier|gemini-frontier": 0.5263,
+      "gpt-frontier|gemini-frontier": 0.3618
+    },
+    "P3": {
+      "claude-frontier|gpt-frontier": 0.3711,
+      "claude-frontier|gemini-frontier": NaN,
+      "gpt-frontier|gemini-frontier": NaN
+    }
+  },
+  "stress_r2_by_tier": {
+    "efficiency": {
+      "normal": 0.0126,
+      "stress": 0.4712
+    },
+    "frontier": {
+      "normal": 0.0194,
+      "stress": 0.4988
+    },
+    "open": {
+      "normal": 0.0153,
+      "stress": 0.431
+    }
+  },
+  "eq7": [
+    {
+      "arm": "P0",
+      "cleaning": "C2x",
+      "h": 4,
+      "n": 126,
+      "beta": 0.0905,
+      "nw_se": 0.1217,
+      "t": 0.74,
+      "p": 0.4571
+    },
+    {
+      "arm": "P0",
+      "cleaning": "C2x",
+      "h": 8,
+      "n": 126,
+      "beta": 0.0278,
+      "nw_se": 0.1058,
+      "t": 0.26,
+      "p": 0.7925
+    },
+    {
+      "arm": "P0",
+      "cleaning": "C2x",
+      "h": 13,
+      "n": 126,
+      "beta": 0.0529,
+      "nw_se": 0.0936,
+      "t": 0.57,
+      "p": 0.5721
+    },
+    {
+      "arm": "P0",
+      "cleaning": "C3x",
+      "h": 4,
+      "n": 126,
+      "beta": -0.0394,
+      "nw_se": 0.0571,
+      "t": -0.69,
+      "p": 0.4901
+    },
+    {
+      "arm": "P0",
+      "cleaning": "C3x",
+      "h": 8,
+      "n": 126,
+      "beta": -0.0514,
+      "nw_se": 0.0523,
+      "t": -0.98,
+      "p": 0.3255
+    },
+    {
+      "arm": "P0",
+      "cleaning": "C3x",
+      "h": 13,
+      "n": 126,
+      "beta": -0.0334,
+      "nw_se": 0.0559,
+      "t": -0.6,
+      "p": 0.5506
+    },
+    {
+      "arm": "P3",
+      "cleaning": "C2x",
+      "h": 4,
+      "n": 126,
+      "beta": 0.0852,
+      "nw_se": 0.1406,
+      "t": 0.61,
+      "p": 0.5448
+    },
+    {
+      "arm": "P3",
+      "cleaning": "C2x",
+      "h": 8,
+      "n": 126,
+      "beta": 0.0303,
+      "nw_se": 0.1252,
+      "t": 0.24,
+      "p": 0.809
+    },
+    {
+      "arm": "P3",
+      "cleaning": "C2x",
+      "h": 13,
+      "n": 126,
+      "beta": 0.0346,
+      "nw_se": 0.111,
+      "t": 0.31,
+      "p": 0.755
+    },
+    {
+      "arm": "P3",
+      "cleaning": "C3x",
+      "h": 4,
+      "n": 126,
+      "beta": -0.1151,
+      "nw_se": 0.0551,
+      "t": -2.09,
+      "p": 0.0369
+    },
+    {
+      "arm": "P3",
+      "cleaning": "C3x",
+      "h": 8,
+      "n": 126,
+      "beta": -0.119,
+      "nw_se": 0.0619,
+      "t": -1.92,
+      "p": 0.0544
+    },
+    {
+      "arm": "P3",
+      "cleaning": "C3x",
+      "h": 13,
+      "n": 126,
+      "beta": -0.1194,
+      "nw_se": 0.0635,
+      "t": -1.88,
+      "p": 0.06
+    }
+  ],
+  "decay": {
+    "P0": {
+      "all9": [
+        0.8495,
+        0.5751,
+        0.5026
+      ],
+      "within_frontier": [
+        0.8809,
+        0.5651,
+        0.4836
+      ],
+      "within_efficiency": [
+        0.853,
+        0.5935,
+        0.5065
+      ],
+      "within_open": [
+        0.8495,
+        0.6052,
+        0.558
+      ]
+    },
+    "P3": {
+      "all9": [
+        0.8026,
+        0.4609,
+        0.39
+      ],
+      "within_frontier": [
+        0.8541,
+        0.4237,
+        0.3711
+      ],
+      "within_efficiency": [
+        0.7869,
+        0.4396,
+        0.3401
+      ],
+      "within_open": [
+        0.7814,
+        0.4576,
+        0.4025
+      ]
+    }
+  }
+}
