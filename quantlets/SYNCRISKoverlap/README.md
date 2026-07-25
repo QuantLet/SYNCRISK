@@ -1,0 +1,28 @@
+<div style="margin: 0; padding: 0; text-align: center; border: none;">
+<a href="https://quantlet.com" target="_blank" style="text-decoration: none; border: none;">
+<img src="https://github.com/StefanGam/test-repo/blob/main/quantlet_design.png?raw=true" alt="Header Image" width="100%" style="margin: 0; padding: 0; display: block; border: none;" />
+</a>
+</div>
+
+```
+Name of QuantLet: SYNCRISKoverlap
+
+Published in: SYNCRISK: A Label-Free Audit of Effective Diversity in Shared-Information AI Risk-Scoring Panels
+
+Description: Reproduces the effective-diversity-as-a-curve result (Section 5.7). Reads the published matched-overlap no-model-channel sweep rho_null(J) (Table 12; anchors pinned at the estimator floor 0.083 at J=0 and the same-channel pole 0.561 at J=1) and maps it to an effective diversity K_eff(J)=6/[1+5*rho_null(J)]. Marks the empirical LLM panel (J=0.57, rho=0.36, K_eff=2.1) on the plane: it sits just above the pure-shared-input null at the same overlap (K_eff~1.9), so at the realized news overlap the effective-diversity deficit is essentially what input overlap alone produces. Open markers give the analytic 50%/90% subsample extrapolation via J=f/(2-f) and the induced news correlation 2J/(1+J)=f (analytic, not empirical). Demonstrates that the headline (2.1 independent validators) is a point on a curve governed by the designed input overlap, not a design-free constant.
+
+Keywords: effective-diversity, matched-overlap, jaccard, shared-information, k-eff, calibration, source-agnostic, llm, model-risk, afsi
+
+Author: Daniel Traian Pele
+
+Submitted: 2026-07-09
+
+Datafile: matched_overlap_sweep.csv
+
+Output: SYNCRISKoverlap.csv, SYNCRISKoverlap.png, SYNCRISKoverlap.ipynb
+
+```
+<div align="center">
+<img src="https://raw.githubusercontent.com/QuantLet/SYNCRISK/main/quantlets/SYNCRISKoverlap/SYNCRISKoverlap.png" alt="Image" />
+</div>
+
