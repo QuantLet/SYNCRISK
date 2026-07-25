@@ -1,0 +1,24 @@
+<div style="margin: 0; padding: 0; text-align: center; border: none;">
+<a href="https://quantlet.com" target="_blank" style="text-decoration: none; border: none;">
+<img src="https://github.com/StefanGam/test-repo/blob/main/quantlet_design.png?raw=true" alt="Header Image" width="100%" style="margin: 0; padding: 0; display: block; border: none;" />
+</a>
+</div>
+
+```
+Name of QuantLet: SYNCRISKcore
+
+Published in: SYNCRISK: A Label-Free Audit of Effective Diversity in AI Risk-Scoring Panels
+
+Description: Reproduces the high-coverage core robustness check (paper Table core) under the B-stabilized estimator: Excess-AFSI on the full 30-asset panel versus the 13-asset high-coverage core, by cleaning C2x/C3x and arms P0/P3, in normal and stress weeks. The headline level is stable on the core, so it is not an artifact of thin-coverage assets. Rendered from the published B-stabilized results files.
+
+Keywords: robustness, core, high-coverage, cross-section, afsi, synchronization, risk, llm
+
+Author: Daniel Traian Pele
+
+Submitted: 2026-06-17
+
+Datafile: upg_Bstab_results.json
+
+Output: SYNCRISKcore.csv, SYNCRISKcore.ipynb
+
+```
