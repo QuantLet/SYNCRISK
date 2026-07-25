@@ -1,0 +1,24 @@
+<div style="margin: 0; padding: 0; text-align: center; border: none;">
+<a href="https://quantlet.com" target="_blank" style="text-decoration: none; border: none;">
+<img src="https://github.com/StefanGam/test-repo/blob/main/quantlet_design.png?raw=true" alt="Header Image" width="100%" style="margin: 0; padding: 0; display: block; border: none;" />
+</a>
+</div>
+
+```
+Name of QuantLet: SYNCRISKsynthetic
+
+Published in: SYNCRISK: A Label-Free Audit of Effective Diversity in AI Risk-Scoring Panels
+
+Description: Runs the full SYNCRISK pipeline end-to-end on a synthetic panel with NO licensed data: Eq.1 standardization, Eq.2 Raw-AFSI, Eq.3/4 cleaning + Excess-AFSI (frozen-linear AND expanding-window C2x/C3x), Eq.5 Tail-AFSI, the permutation test, Eq.6 SCM, and the Eq.7 descriptive projection. Confirms the qualitative signatures hold by construction: Excess-AFSI < Raw-AFSI and the permutation test rejects independence. Lets reviewers exercise the methodology without EODHD/FRED inputs.
+
+Keywords: synthetic-data, end-to-end, pipeline, reproducibility, afsi, permutation-test, simulation, llm
+
+Author: Daniel Traian Pele
+
+Submitted: 2026-06-12
+
+Datafile: make_synthetic_panel.py
+
+Output: SYNCRISKsynthetic.csv, SYNCRISKsynthetic.ipynb
+
+```
